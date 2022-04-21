@@ -11,6 +11,7 @@ const hbs = create({
   defaultLayout: 'home'
 });
 
+// new feature branch test
 const indexRouter = require('./routes');
 const {renderError} = require("./helpers/error-handler.helper");
 

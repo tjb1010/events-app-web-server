@@ -11,6 +11,7 @@ const hbs = create({
   defaultLayout: 'home'
 });
 
+// a change for git
 const indexRouter = require('./routes');
 const {renderError} = require("./helpers/error-handler.helper");
 
